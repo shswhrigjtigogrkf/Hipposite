@@ -3,5 +3,7 @@ Download the file of your choice *(index(1).html or index.html)* and open it in 
 ---
 ## Previews
 ---
+##### silly
 ![alt text](/ex1.png "Example 1")
+##### serious
 ![alt text](/ex2.png "Example 2")
