@@ -10,9 +10,6 @@ Download the file of your choice *(index(1).html or index.html)* and open it in 
 ## Previews
 
 
----
-
-
 ##### silly
 
 
