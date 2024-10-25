@@ -14,13 +14,13 @@ Download the file of your choice *(index(1).html or index.html)* and open it in 
 
 
 
-##### silly
+##### silly (work in progress, hence the gray boxes)
 
 
 ![alt text](/ex1.png "Example 1")
 
 
-##### serious
+##### serious  (also work in progress, just no gray boxes)
 
 
 ![alt text](/ex2.png "Example 2")
