@@ -14,13 +14,13 @@ Download the file of your choice *(index(1).html or index.html)* and open it in 
 
 
 
-##### silly (work in progress, hence the gray boxes)
+##### silly (this is for avid school haters, this is for the silliest of sillys)
 
 
 ![alt text](/ex1.png "Example 1")
 
 
-##### serious  (also work in progress, just no gray boxes)
+##### serious  (this is for people who want the job done without silly shit like games or reddit, this is for serious shit man, use at your own discretion) 
 
 
 ![alt text](/ex2.png "Example 2")
