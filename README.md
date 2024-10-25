@@ -24,3 +24,4 @@ Download the file of your choice *(silly.html or serious.html)* and open it in y
 
 
 ![alt text](/ex2.png "Example 2")
+(ALL CREDIT FOR FINDING THE 40% METHOD IS FROM @az.wt ON DISCORD, AND THIS CONTENT WAS MADE FOR THE SOLE PURPOUSE OF MAKING IT EASIER TO FUCK UP YOUR GRADES, AND MAKE YOU HAPPY
