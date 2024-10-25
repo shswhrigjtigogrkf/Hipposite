@@ -14,13 +14,13 @@ Download the file of your choice *(index(1).html or index.html)* and open it in 
 
 
 
-##### silly (this is for avid school haters, this is for the silliest of sillys)
+##### 40% Bible (index2 (1)) (this is for avid school haters, this is for the silliest of sillys)
 
 
 ![alt text](/ex1.png "Example 1")
 
 
-##### serious  (this is for people who want the job done without silly shit like games or reddit, this is for serious shit man, use at your own discretion) 
+##### Hipposite (index2)  (this is for people who want the job done without silly shit like games or reddit, this is for serious shit man, use at your own discretion) 
 
 
 ![alt text](/ex2.png "Example 2")
