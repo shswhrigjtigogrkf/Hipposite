@@ -111,6 +111,8 @@
                 text-align: center;
                 color: white;
                 z-index: 1;
+                box-sizing: border-box;
+                padding-right: 50px;
 
             }
             input[type=text]:focus{
@@ -124,6 +126,7 @@
                 font-family: "Courier New", Courier, monospace;
                 cursor: pointer;
                 z-index: 1;
+
 
             }
             a {
@@ -218,7 +221,7 @@
         </div>
 
         <form id="goto" onsubmit="opens(event, 'urlinput', 'false');">
-            <input id="urlinput" type="text" placeholder="Enter URL here" /><input type="submit" value="Go">
+            <input id="urlinput" type="text" placeholder="Enter URL here" /><input type="submit" value="Submit URL">
         </form>
         <hr>
         <div class="buttons">
