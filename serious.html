@@ -153,58 +153,6 @@
                 75%{-webkit-text-stroke-color: #98ff98;}
                 100%{-webkit-text-stroke-color: purple;}
             }
-            @keyframes flyIn {
-                0% {
-                    opacity: 0;
-                    transform: translateY(-100vh) translateX(-50%);
-                }
-                25% {
-                    opacity: 0.9;
-                    transform: translateY(0) translateX(-50%);
-                }
-                50% {
-                    opacity: 0.9;
-                    transform: translateY(0) translateX(-50%);
-                }
-                75% {
-                    opacity: 0.9;
-                    transform: translateY(0) translateX(-50%);
-                }
-                100% {
-                    opacity: 0;
-                    transform: translateY(-100vh) translateX(-50%);
-                }
-            }
-            .info {
-                animation-name: tcolor;
-                animation-duration: 4s;
-                animation-iteration-count: infinite;
-                -webkit-text-stroke-width: 1px;
-                -webkit-text-stroke-color: transparent;
-                background-color: transparent;
-                border: none;
-                border-radius: 15%;
-                z-index: 1;
-                color: #98ff98;
-            }
-            .hidden {
-                display: none;
-                z-index: 1;
-            }
-            .box {
-                position: absolute;
-                width: 500px;
-                height: 650px;
-                background-color: rgb(18, 1, 48, 0.9);
-                border: purple 2px solid;
-                border-radius: 10%;
-                padding: 5px;
-                z-index: 5;
-                top: +50px;
-                left: 50%;
-                transform: translateX(-50%);
-                animation: flyIn 7s ease-out forwards;
-            }
             .buttons {
                 position: relative;
                 width: 90%px;
@@ -217,12 +165,6 @@
             }
         </style>
         <script>
-            function toggleDiv() {
-              event.preventDefault();
-              const div = document.getElementById("dropdown");
-              div.classList.toggle("hidden");
-              div.classList.toggle("box");
-            }
             function opens(event, id, burl) {
                 let url;
                 if (id == 'false'){
@@ -243,16 +185,8 @@
             }
         </script>
     </head>
-        <form onsubmit="toggleDiv()">
-        <input type="submit" class="info" value="Info">
-        </form>
         <h1>Hipposite</h1>
         <br>
-        <div id="dropdown" class="hidden">
-            <h3>Created by Mix and Boblo</h3>
-            <p>No copying please! There is no license yet but it should be coming soon.</p>
-        </div>
-
         <form id="goto" onsubmit="opens(event, 'urlinput', 'false');">
             <input id="urlinput" type="text" placeholder="Enter URL here" />
             <input type="submit" value="Submit URL">
