@@ -179,9 +179,11 @@
                         'Accept': 'application/vnd.github.v3.raw'
                     }
                 });
-                const githubContent = await response.text();
+                var githubContent = await response.text();
                 const localResponse = await fetch(localFilePath);
-                const localContent = await localResponse.text();
+                var localContent = await localResponse.text();
+                const githubContent = githubContent.replace(/\s+/g, '');
+                const localContent = localContent.replace(/\s+/g, '');
                 
                 console.log('GitHub content length:', githubContent.length);
                 console.log('Local content length:', localContent.length);
