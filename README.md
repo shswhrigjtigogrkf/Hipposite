@@ -6,7 +6,7 @@ This is a collection of two separate, but equally purple *“proxies”*  for th
 ---
 
  
- [^1]: **(The method used to bypass extensions is using “percent-encoding, which is under public domain, and therefore not licensable by any party.”)**
+ [^1]: **(The method used to bypass extensions is using “percent-encoding", which is under public domain, and therefore not licensable by any party. We have faced threatened strikes over this, so do not listen to someone claiming to "own" %40, (Ex. Someone named "d" on discord))**
 [^2]: ***Credit to Blobby-Boi here on Github*
 
 
