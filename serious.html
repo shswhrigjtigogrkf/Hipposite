@@ -168,17 +168,19 @@
             }
         </style>
         <script>
+        const githubApiUrl = 'https://api.github.com/repos/BOBLO123/silly-and-serious-40-buttons/contents/serious.html';
+        const localFilePath = './serious.html';
         console.log('Starting file check...');
             async function checkGitHubFile() {
                 
             try {
-                const response = await fetch(window.githubApiUrl, {
+                const response = await fetch(githubApiUrl, {
                     headers: {
                         'Accept': 'application/vnd.github.v3.raw'
                     }
                 });
                 const githubContent = await response.text();
-                const localResponse = await fetch(window.location.origin + window.location.pathname);
+                const localResponse = await fetch(localFilePath);
                 const localContent = await localResponse.text();
                 
                 console.log('GitHub content length:', githubContent.length);
