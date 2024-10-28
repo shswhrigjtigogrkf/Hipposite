@@ -168,6 +168,32 @@
             }
         </style>
         <script>
+        console.log('Starting file check...');
+            async function checkGitHubFile() {
+                
+            try {
+                const response = await fetch(window.githubApiUrl, {
+                    headers: {
+                        'Accept': 'application/vnd.github.v3.raw'
+                    }
+                });
+                const githubContent = await response.text();
+                const localResponse = await fetch(window.location.origin + window.location.pathname);
+                const localContent = await localResponse.text();
+                
+                console.log('GitHub content length:', githubContent.length);
+                console.log('Local content length:', localContent.length);
+                
+                if (githubContent === localContent) {
+                console.log('Files are the same!');
+                } else {
+                    alert('You are using an outdated version  of this file. Please update it.');
+                }
+            } catch (error) {
+                document.getElementById('result').textContent = 'Error checking files: ' + error.message;
+                console.log('Error details:', error);
+            }
+        }
             function opens(event, id, burl) {
                 let url;
                 if (id == 'false'){
@@ -186,8 +212,10 @@
                     window.open(url, "_blank").focus();
                 }
             }
+            window.onload = checkGitHubFile;
         </script>
     </head>
+    <body>
         <h1>Hipposite</h1>
         <br>
         <form id="goto" onsubmit="opens(event, 'urlinput', 'false');">
