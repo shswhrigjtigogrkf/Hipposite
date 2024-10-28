@@ -1,3 +1,10 @@
+**What Is This?   
+	This is a collection of two separate, but equally purple *“proxies”* for the uninitiated. In reality, this is simply a small web page, that will take a submitted URL and ad a load of percent-encoding characters, specifically %40, which is the encoded version of @. Adding this before a URL, the newly opened link is difficult to parse for many extensions, and therefore is loaded as if there are none. This is tested working with DyKnow and Securely, if you tested it on another blocking extension	and it works, please make an issue. This also comes with ExtHang3r, which after a while of processing, should hopefully hang a selected extension for a duration of time, therefore rendering it incapable of blocking websites etc. This is very much a work in progress and will require your support. Please star this repository and share it with your friends. *(The method used to bypass extensions is using “percent-encoding, which is under public domain, and therefore not licensable by any party.”)*
+
+
+
+
+
 ### silly.html is the better version for sillies, serious.html is for when you need it to actually look serious.
 
 
