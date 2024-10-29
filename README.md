@@ -13,6 +13,7 @@ This is a collection of two separate, but equally purple *“proxies”*  for th
 
 
 ### silly.html is the better version for sillies, serious.html is for when you need it to actually look serious.
+Serious (Hipposite), is created by hand. As one person develops it, it is far more coordinated and efficient, with more functional code that is also reusable. It is a good choice for those wishing to contribute.
 
 
 Download the file of your choice *(silly.html or serious.html)* and open it in your browser.
