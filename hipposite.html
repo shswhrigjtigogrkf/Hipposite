@@ -187,7 +187,7 @@
             }
         </style>
         <script>
-        const html = document.documentElement.innerHTML;
+        const html = document.documentElement.textContent;
         fetch('https://raw.githubusercontent.com/BOBLO123/silly-and-serious-40-buttons/refs/heads/testing/hipposite.html')
         .then(response => response.text())
         .then(check => {if (check != html){
