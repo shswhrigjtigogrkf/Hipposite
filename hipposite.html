@@ -186,24 +186,6 @@
                 justify-content: center;
             }
         </style>
-        <script>
-        function nodif(html) {
-            return html
-        .replace(/\s+/g, " ")
-        .replace(/<!--.*?-->/g, "")
-        .replace(/>\s+</g, "><")
-        .trim()
-        .toLowerCase();
-    }
-        const html = '<!doctype html>' + '\n' + document.documentElement.outerHTML
-        fetch('https://raw.githubusercontent.com/BOBLO123/silly-and-serious-40-buttons/refs/heads/testing/hipposite.html')
-        .then(response => response.text())
-        .then(check => {if (nodif(check) != nodif(html)){
-            alert('This File is outdated, please update using the Github repo.')
-            console.log(html)
-            console.log(check)
-        }});   
-        </script>
     </head>
     <body>
         <h1>Hipposite</h1>
