@@ -187,37 +187,12 @@
             }
         </style>
         <script>
-        const githubApiUrl = 'https://api.github.com/repos/BOBLO123/silly-and-serious-40-buttons/contents/serious.html';
-        const localFilePath = './serious.html';
-        console.log('Starting file check...');
-            async function checkGitHubFile() {
-                
-            try {
-                const response = await fetch(githubApiUrl, {
-                    headers: {
-                        'Accept': 'application/vnd.github.v3.raw'
-                    }
-                });
-                var githubContent = await response.text();
-                const localResponse = await fetch(localFilePath);
-                var localContent = await localResponse.text();
-                const githubContent = githubContent.replace(/\s+/g, '');
-                const localContent = localContent.replace(/\s+/g, '');
-                
-                console.log('GitHub content length:', githubContent.length);
-                console.log('Local content length:', localContent.length);
-                
-                if (githubContent === localContent) {
-                console.log('Files are the same!');
-                } else {
-                    alert('You are using an outdated version  of this file. Please update it.');
-                }
-            } catch (error) {
-                document.getElementById('result').textContent = 'Error checking files: ' + error.message;
-                console.log('Error details:', error);
-            }
-        }
-         window.onload = checkGitHubFile;
+        const html = document.documentElement.innerHTML;
+        fetch('https://raw.githubusercontent.com/BOBLO123/silly-and-serious-40-buttons/refs/heads/main/hipposite.html')
+        .then(response => response.text())
+        .then(check => {if (check != html){
+            alert('This File is outdated, please update using the Github repo.')
+        }});
         </script>
     </head>
     <body>
