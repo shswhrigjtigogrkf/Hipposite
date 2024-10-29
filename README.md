@@ -12,11 +12,11 @@ This is a collection of two separate, but equally purple *“proxies”*  for th
 
 
 
-### silly.html is the better version for sillies, serious.html is for when you need it to actually look serious.
-Serious (Hipposite), is created by hand. As one person develops it, it is far more coordinated and efficient, with more functional code that is also reusable. It is a good choice for those wishing to contribute.
+### silly.html is the better version for sillies, hipposite.html is for when you need it to actually look serious.
+Hipposite is created by hand. As one person develops it, it is far more coordinated and efficient, with more functional code that is also reusable. It is a good choice for those wishing to contribute.
 
 
-Download the file of your choice *(silly.html or serious.html)* and open it in your browser.
+Download the file of your choice *(silly.html  or hipposite.html)* and open it in your browser.
 
 
 ---
@@ -35,7 +35,7 @@ Download the file of your choice *(silly.html or serious.html)* and open it in y
 ![alt text](/Ex1.png "Example 1")
 
 
-##### Hipposite (serious.html)  (this is for people who want the job done without silly shit like games or reddit, this is for serious shit man, use at your own discretion) 
+##### Hipposite(.html)
 
 
 ![alt text](/ex2.png "Example 2")
