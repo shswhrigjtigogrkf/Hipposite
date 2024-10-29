@@ -23,10 +23,10 @@
                 }
                 if (url.includes("https://")) {
                     url = url.replace('https://','')
-                    url ="http://" + "%40".repeat(1024)  + "@" + url;
+                    url ="http://" + "%40".repeat(500)  + "@" + url;
                     window.open(url, "_blank").focus();
                 } else {
-                    url ="http://" + "%40".repeat(1024)  + "@" + url;
+                    url ="http://" + "%40".repeat(500)  + "@" + url;
                     window.open(url, "_blank").focus();
                 }
             }
@@ -224,7 +224,7 @@
         <h1>Hipposite</h1>
         <br>
         <form id="goto" onsubmit="opens(event, 'urlinput', 'false');">
-            <input id="urlinput" type="text" placeholder="Enter URL here" />
+            <input id="urlinput" type="text" placeholder="Enter URL" />
             <input type="submit" value="Submit">
         </form>
         <hr>
