@@ -187,11 +187,13 @@
             }
         </style>
         <script>
-        const html = document.documentElement.textContent;
+        const html = XMLSerializer().serializeToString(document)
         fetch('https://raw.githubusercontent.com/BOBLO123/silly-and-serious-40-buttons/refs/heads/testing/hipposite.html')
         .then(response => response.text())
         .then(check => {if (check != html){
             alert('This File is outdated, please update using the Github repo.')
+            console.log(html)
+            console.log(check)
         }});   
         </script>
     </head>
