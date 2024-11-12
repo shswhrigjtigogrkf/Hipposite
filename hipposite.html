@@ -15,6 +15,7 @@
         <!--Yappenese or something that nobody understands -->
         <script>
             function opens(event, id, url) {
+                let chars =  document.getElementById('charslider').value;
                 if (id == 'false'){
                   urlchd = url;
                 }else {
@@ -23,10 +24,10 @@
                 }
                 if (urlchd.includes("https://")) {
                     urlchd = url.replace('https://','')
-                    urlchd ="http://" + "%40".repeat(350)  + "@" + urlchd;
+                    urlchd ="http://" + "%40".repeat(chars)  + "@" + urlchd;
                     return urlchd;
                 } else {
-                    urlchd ="http://" + "%40".repeat(350)  + "@" + urlchd;
+                    urlchd ="http://" + "%40".repeat(chars)  + "@" + urlchd;
                     return urlchd;
                 }
             }
@@ -61,7 +62,7 @@
                 scrollbar-width: none;
             }
             body {
-                font-family: "Courier New", Courier, monospace;
+                font-family: Verdana, Geneva, Tahoma, sans-serif, monospace;
                 padding: 20px;
                 background-image: linear-gradient(20deg, #4c0212, #120130);
                 height: 800px;      
@@ -100,10 +101,10 @@
                 z-index: 1;
             }
             h1 {
-                font-size: 40px;
+                font-size: 50px;
             }
             a {
-                font-family: "Courier New", Courier, monospace;
+                font-family: Verdana, Geneva, Tahoma, sans-serif, monospace;
                 color: #98ff98;
                 z-index: 1;
                 text-shadow: 1px 4px purple;
@@ -128,7 +129,8 @@
                 z-index: 1;
             }
             #goto {
-                width: 20%;
+                width: fit-content;
+                min-width: 30%;
                 margin: 0 auto;
                 text-align: center;
                 border-radius: 10px;
@@ -154,7 +156,7 @@
             input[type=text]{
                 background-color: transparent;
                 border: none;
-                font-family: "Courier New", Courier, monospace;
+                font-family: Verdana, Geneva, Tahoma, sans-serif, monospace;
                 text-align: center;
                 color: white;
                 z-index: 1;
@@ -171,13 +173,14 @@
             input[type=submit] {
                 background-color: transparent;
                 color: white;
-                border: 1px purple solid;
-                border-radius: 3px;
-                font-family: "Courier New", Courier, monospace;
+                border: 2px purple solid;
+                font-family: Verdana, Geneva, Tahoma, sans-serif, monospace;
                 cursor: pointer;
                 z-index: 1;
                 display: inline-block;
                 white-space: nowrap;
+                border-top: none;
+                border-bottom: none;
             }
             a {
                 text-decoration: none;
@@ -231,8 +234,8 @@
             <input type="checkbox" id="ifcheck">
             <span class="checkmark"></span>
         </form>
-        <div style="border: 2px purple solid; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; margin: 0 auto;">
-            <input type="slider" min="250" max="5000" id="charslider">
+        <div style="border: 2px purple solid; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; margin: 0 auto; min-width: 15%; max-width: 25%; width:fit-content; border-top: none;">
+            <input type="range" min="350" max="10000" id="charslider" value="350">
         </div>
         <iframe src='about:blank' id="iframe" frameborder='0' allowTransparency='true' scrolling='auto'></iframe>
         <hr>
