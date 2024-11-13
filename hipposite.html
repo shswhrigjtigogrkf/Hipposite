@@ -13,39 +13,19 @@
         <!--Yes, like a zip bomb-->
         <!--Reapeat (1)-->
         <!--Yappenese or something that nobody understands -->
+        
         <script>
-            function opens(event, id, url) {
+            function opens(event, url) {
+                event.preventDefault();
                 let chars =  document.getElementById('charslider').value;
-                if (id == 'false'){
-                  urlchd = url;
-                }else {
-                  event.preventDefault();
-                  urlchd = document.getElementById(id).value;
-                }
+                urlchd = url;
                 if (urlchd.includes("https://")) {
                     urlchd = url.replace('https://','')
                     urlchd ="http://" + "%40".repeat(chars)  + "@" + urlchd;
-                    return urlchd;
+                    window.open(urlchd, '_blank')
                 } else {
                     urlchd ="http://" + "%40".repeat(chars)  + "@" + urlchd;
-                    return urlchd;
-                }
-            }
-            function formsub(event, url){
-                event.preventDefault();
-                if (!url) {
-                    const urlop = opens(event, 'false', document.getElementById('urlinput').value);
-                    var chckbx = document.getElementById('ifcheck').checked;
-                    var iframe = document.getElementById('iframe');
-                    if (chckbx) {
-                        iframe.src = urlop;
-                        iframe.style.display = "block";
-                    } else {
-                        window.open(urlop, "_blank");
-                    }
-                } else {
-                    const urlop = opens(event, 'false', url);
-                    window.open(urlop, "_blank")
+                    window.open(urlchd, '_blank')
                 }
             }
         </script>
@@ -181,6 +161,8 @@
                 white-space: nowrap;
                 border-top: none;
                 border-bottom: none;
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
             }
             a {
                 text-decoration: none;
@@ -213,16 +195,6 @@
               background: transparent;
               display: none;
             }
-            #iframe {
-                display: none;
-                height: 100%;
-                width: 100%;
-                z-index: 2;
-                position: absolute;
-                background-color: #120130;
-                top: 0%;
-                left: 0%;
-            }
             input[type=range] {
                 -webkit-appearance: none;
                 appearance: none;
@@ -248,16 +220,13 @@
     <body>
         <h1>Hipposite</h1>
         <br>
-        <form id="goto" onsubmit='formsub(event)'>
+        <form id="goto" onsubmit='opens(event, document.getElementById("urlinput").value)'>
             <input id="urlinput" type="text" placeholder="Enter URL" />
             <input type="submit" value="Submit">
-            <input type="checkbox" id="ifcheck">
-            <span class="checkmark"></span>
         </form>
         <div style="border: 2px purple solid; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; margin: 0 auto; min-width: 15%; max-width: 25%; width:fit-content; border-top: none;">
             <input type="range" min="350" max="100000" id="charslider" value="350">
         </div>
-        <iframe src='about:blank' id="iframe" frameborder='0' allowTransparency='true' scrolling='auto'></iframe>
         <hr>
         <div class="buttons">
             <!-- Button Template -->
