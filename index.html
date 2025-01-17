@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Hipposite 2</title>
-        <meta name="description" content="">
+        <meta name="description" content="Yippers Chippers">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             :root {
@@ -83,19 +83,22 @@
         <div class="header">
             <h1>Hipposite 2</h1>
         </div>
-        <div class="input">
-            <input type="text" id="url">
+        <form class="input" onsubmit="open(event, document.getElementById('url').value)">
+            <input type="text" id="url" placeholder="Enter Url Here">
             <input type="submit" id="submit" value="go">
             <br>
             <input type="range" min="350" max="100000" id="slider" value="350">
-        </div>
+        </form>
         <script async defer>
             function open(event, url) {
                 event.preventDefault();
+                let newUrl = url
                 let sliderValue = document.getElementById("slider").value;
-                url.replace("/^https?:\/\//", "");
-                let newUrl = "http://" + "%40".repeat(sliderValue)  + "@" + url
-                window.open(newUrl, "_blank")
+                newUrl.replace("/^https?:\/\//", "");
+                console.log(newUrl);
+                newUrl = "http://" + "%40".repeat(sliderValue)  + "@" + newUrl;
+                console.log(newUrl);
+                window.open(newUrl, "_blank");
             }
         </script>
     </body>
