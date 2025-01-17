@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hipposite 2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            :root {
+                --main: rgb(240,224,130);
+            }
+            html {
+                background-image: url('./background.svg');
+                background-repeat: no-repeat;
+                background-size: 100%;
+                color: var(--main);
+                font-family: Verdana, Geneva, Tahoma, sans-serif, monospace;
+                justify-content: center;
+                text-align: center;
+            }
+            h1 {
+                font-size: 50px;
+            }
+
+            #slider {
+                width: 40vw;
+                height: 3vh;
+            } #slider::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                width:10px;
+                height: 10px;
+                border: 2px red solid;
+                background-color: rebeccapurple;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Hipposite 2</h1>
+        </div>
+        <div class="input">
+            <input type="range" min="350" max="100000" id="slider" value="350">
+        </div>
+        <script async defer>
+            function open(event, url) {
+                event.preventDefault();
+                let sliderValue = document.getElementById("slider").value;
+                url.replace("/^https?:\/\//", "");
+                let newUrl = "http://" + "%40".repeat(sliderValue)  + "@" + url
+                window.open(newUrl, "_blank")
+            }
+        </script>
+    </body>
+</html>
+
