@@ -83,20 +83,19 @@
         <div class="header">
             <h1>Hipposite 2</h1>
         </div>
-        <form class="input" onsubmit="open(event, document.getElementById('url').value)">
+        <form class="input" onsubmit="openTab(event, document.getElementById('url').value)">
             <input type="text" id="url" placeholder="Enter Url Here">
             <input type="submit" id="submit" value="go">
             <br>
             <input type="range" min="350" max="100000" id="slider" value="350">
         </form>
         <script async defer>
-            function open(event, url) {
+            function openTab(event, url) {
                 event.preventDefault();
-                let newUrl = url
                 let sliderValue = document.getElementById("slider").value;
-                newUrl.replace("/^https?:\/\//", "");
+                let newUrl = url.replace(/^(https?:|)\/\//, "");
                 console.log(newUrl);
-                newUrl = "http://" + "%40".repeat(sliderValue)  + "@" + newUrl;
+                newUrl = "https://" + "%40".repeat(sliderValue)  + "@" + newUrl;
                 console.log(newUrl);
                 window.open(newUrl, "_blank");
             }
