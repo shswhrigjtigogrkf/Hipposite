@@ -21,7 +21,7 @@ We're planning to bring some exciting new features to HIPPOSITE 2! Here's what's
   - Beyond the 40% method (requires a server, so not guaranteed).  
 
 - 🛠️ **ExtHang3r Integration**  
-  - A tool made by [Blobby-Boi](https://github.com/Blobby-Boi) [repo](https://github.com/blobby_boy)
+  - A tool made by [Blobby-Boi](https://github.com/Blobby-Boi)   (ExtHang3r [repo](https://github.com/blobby_boy)  )
 
 - 🔄 **Auto-Update**  
   - Most likely not happening, but we’ll see!  
