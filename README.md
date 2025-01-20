@@ -54,7 +54,7 @@ We're working to include the following apps and services:
 ---
 
 ## 🙏 A Note From the Creators  
-This project is created by **two 8th graders** who are working on it in their free time. Please be patient as updates may not be consistent or perfect. 
+This project is created by **an 8th grader** and a dumbass who are working on it in their free time. Please be patient as updates may not be consistent or perfect. 
 And we truly are sorry for not living up to some expectations.
 
 We encourage you to:  
