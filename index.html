@@ -4,17 +4,19 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Hipposite 2</title>
-        <meta name="description" content="">
+        <meta name="description" content="Yippers Chippers">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             :root {
-                --main: rgb(240,224,130);
+                --main: #431c53;
+                --maindark: #350f2e;
+                --accent: #4e5190;
+                --text: rgb(194, 222, 246);
+                --link: rgb(133, 193, 64);
             }
             html {
-                background-image: url('./background.svg'');
-                background-repeat: no-repeat;
-                background-size: 100%;
-                color: var(--main);
+                background: url(data:image/svg+xml;base64,PHN2ZyBpZD0idmlzdWFsIiB2aWV3Qm94PSIwIDAgMTkyMCAxMDgwIiB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxMDgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiPjxnIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVqb2luPSJiZXZlbCI+PHBhdGggZD0iTTcxNiA0NzZMMTI1MyAwTDY4NiAwWiIgZmlsbD0iIzI1MDcyMCIgc3Ryb2tlPSIjOWYyYjY4Ij48L3BhdGg+PHBhdGggZD0iTTcxNiA0NzZMMTI5NiA2MTFMMTI1MyAwWiIgZmlsbD0iIzI0MDcxZSIgc3Ryb2tlPSIjOWYyYjY4Ij48L3BhdGg+PHBhdGggZD0iTTcxNiA0NzZMMTIxMCAxMDgwTDEyOTYgNjExWiIgZmlsbD0iIzI0MDcxZSIgc3Ryb2tlPSIjOWYyYjY4Ij48L3BhdGg+PHBhdGggZD0iTTAgNTY0TDYwNiAxMDgwTDcxNiA0NzZaIiBmaWxsPSIjMjkwYTM2IiBzdHJva2U9IiM5ZjJiNjgiPjwvcGF0aD48cGF0aCBkPSJNNzE2IDQ3Nkw2MDYgMTA4MEwxMjEwIDEwODBaIiBmaWxsPSIjMjgwODI5IiBzdHJva2U9IiM5ZjJiNjgiPjwvcGF0aD48cGF0aCBkPSJNMTkyMCA0OTVMMTkyMCAwTDEyNTMgMFoiIGZpbGw9IiMyNzA4MjQiIHN0cm9rZT0iIzlmMmI2OCI+PC9wYXRoPjxwYXRoIGQ9Ik0xOTIwIDQ5NUwxMjUzIDBMMTI5NiA2MTFaIiBmaWxsPSIjMjQwNzFlIiBzdHJva2U9IiM5ZjJiNjgiPjwvcGF0aD48cGF0aCBkPSJNMTkyMCAxMDgwTDE5MjAgNDk1TDEyOTYgNjExWiIgZmlsbD0iIzI0MDcxZSIgc3Ryb2tlPSIjOWYyYjY4Ij48L3BhdGg+PHBhdGggZD0iTTY4NiAwTDAgMEw3MTYgNDc2WiIgZmlsbD0iIzI4MDgyOSIgc3Ryb2tlPSIjOWYyYjY4Ij48L3BhdGg+PHBhdGggZD0iTTAgMEwwIDU2NEw3MTYgNDc2WiIgZmlsbD0iIzI0MDcxZSIgc3Ryb2tlPSIjOWYyYjY4Ij48L3BhdGg+PHBhdGggZD0iTTEyMTAgMTA4MEwxOTIwIDEwODBMMTI5NiA2MTFaIiBmaWxsPSIjMjkwOTMxIiBzdHJva2U9IiM5ZjJiNjgiPjwvcGF0aD48cGF0aCBkPSJNMCA1NjRMMCAxMDgwTDYwNiAxMDgwWiIgZmlsbD0iIzI4MDgyOSIgc3Ryb2tlPSIjOWYyYjY4Ij48L3BhdGg+PC9nPjwvc3ZnPg0K) no-repeat fixed;
+                background-size: cover;
                 font-family: Verdana, Geneva, Tahoma, sans-serif, monospace;
                 justify-content: center;
                 text-align: center;
@@ -24,14 +26,56 @@
             }
 
             #slider {
-                width: 40vw;
-                height: 3vh;
+                -webkit-appearance: none;
+                appearance: none;
+                margin-top: 0.5vh;
+                width: 100px;
+                height: 12px;
+                background-color: var(--accent);
+                border: 1px solid var(--text);
+                border-radius: 6px;
             } #slider::-webkit-slider-thumb {
                 -webkit-appearance: none;
-                width:10px;
-                height: 10px;
-                border: 2px red solid;
-                background-color: rebeccapurple;
+                height: 12px;
+                width: 12px;
+                border: 1px solid var(--text);
+                background-color: var(--maindark);
+            } #slider::-moz-range-thumb {
+                height: 18px;
+                width: 18px;
+                border: 2px solid var(--accent);
+                border-radius: 30%;
+                background-color: var(--maindark);
+            } #url {
+                -webkit-appearance: none;
+                appearance: none;
+                width: 150px;
+                height: inherit;
+                border: 2px solid var(--text);
+                border-radius: 7px;
+                background-color: var(--maindark);
+                color: var(--text);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }input:focus,
+             select:focus,
+             textarea:focus,
+             button:focus {
+                outline: none;
+            } #submit {
+                background-color: var(--accent);
+                border: 2px solid var(--text);
+                border-radius: 7px;
+                width: 25px;
+                height: inherit;
+                padding: 2px;
+                color: var(--text);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            } #submit:hover, #url:hover, #slider:hover {
+                opacity: 0.8;
+            } ::selection {
+                background-color: transparent;
+                color: aquamarine;
+
             }
         </style>
     </head>
@@ -39,16 +83,21 @@
         <div class="header">
             <h1>Hipposite 2</h1>
         </div>
-        <div class="input">
+        <form class="input" onsubmit="openTab(event, document.getElementById('url').value)">
+            <input type="text" id="url" placeholder="Enter Url Here">
+            <input type="submit" id="submit" value="go">
+            <br>
             <input type="range" min="350" max="100000" id="slider" value="350">
-        </div>
+        </form>
         <script async defer>
-            function open(event, url) {
+            function openTab(event, url) {
                 event.preventDefault();
                 let sliderValue = document.getElementById("slider").value;
-                url.replace("/^https?:\/\//", "");
-                let newUrl = "http://" + "%40".repeat(sliderValue)  + "@" + url
-                window.open(newUrl, "_blank")
+                let newUrl = url.replace(/^(https?:|)\/\//, "");
+                console.log(newUrl);
+                newUrl = "https://" + "%40".repeat(sliderValue)  + "@" + newUrl;
+                console.log(newUrl);
+                window.open(newUrl, "_blank");
             }
         </script>
     </body>

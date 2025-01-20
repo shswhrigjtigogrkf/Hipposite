@@ -1,2 +1,4 @@
 # ignore vscode settings
 .vscode/
+# jetbrains too
+.idea/
