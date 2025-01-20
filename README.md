@@ -2,7 +2,7 @@
 # HIPPOSITE 2!! 🎉  
 
 *This is a remake of Hipposite/40%-bible, and we're working hard to make this one even better!*  
-#**DOES NOT WORK FOR NOW**
+**DOES NOT WORK FOR NOW**
 ---
 
 ## ✨ New Features (Hopefully)  
