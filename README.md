@@ -1,6 +1,10 @@
-HIPPOSITE 2!
+HIPPOSITE 2!!
+(This is a remake of Hipposite/40%-bible, and we will be making this one much better.)
 
-This is a remake of Hipposite/40%-bible, and we will be making this one much better.
+
+
+
+
 
 NEW FEATURES (hopefully)
 
@@ -16,6 +20,9 @@ and more!
 
 
 
+
+
+
 APPS
 
 discord
@@ -27,10 +34,17 @@ spotify
 and more as we go!
 
 
+
+
+
 also, this is all made by 2 8th graders, who work on this as much as possible, please know we will not be consistant with updates
 and they may not be as quality as others, but we are doing this for fun, and we do intend for you to have good grades, and do your
 work in school, no matter how much you hate it, its hevily encouraged to pass your classes. get good grades, and then do what you 
 want, or have fun.
+
+
+
+
 
 
 
