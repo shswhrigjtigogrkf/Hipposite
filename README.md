@@ -1,6 +1,3 @@
-Here’s a polished and organized version of your text for a GitHub repository README file:  
-
----
 
 # HIPPOSITE 2!! 🎉  
 
@@ -81,5 +78,3 @@ Thank you for your understanding and cooperation!
 **If you find this project helpful or interesting, don't forget to star ⭐ the repository!**  
 
 ---  
-
-Let me know if you’d like to refine it further!
