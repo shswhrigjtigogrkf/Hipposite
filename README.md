@@ -33,7 +33,9 @@ We're planning to bring some exciting new features to HIPPOSITE 2! Here's what's
 ## 📱 Apps  
 We're working to include the following apps and services:  
 
-- **Discord AI**  
+- **Discord**
+
+-  **Ai**
   - Featuring ChatGPT, Wonder AI, and Wombo.  
 
 - **Movie Piracy Alternatives**  
@@ -52,7 +54,8 @@ We're working to include the following apps and services:
 ---
 
 ## 🙏 A Note From the Creators  
-This project is created by **two 8th graders** who are working on it in their free time. Please be patient as updates may not be consistent or perfect.  
+This project is created by **two 8th graders** who are working on it in their free time. Please be patient as updates may not be consistent or perfect. 
+And we truly are sorry for not living up to some expectations.
 
 We encourage you to:  
 1. Focus on school.  
@@ -75,6 +78,7 @@ Thank you for your understanding and cooperation!
 
 ---
 
-**If you find this project helpful or interesting, don't forget to star ⭐ the repository!**  
+**If you find this project helpful or interesting, don't forget to star ⭐ the repository!** 
+**(We are also taking recomendations in [issues](https://github.com/philchhalmers8/Hipposite/issues/new?template=Blank+issue) or the [Discord server](https://discord.gg/jVC3NPfVkn)**
 
 ---  
