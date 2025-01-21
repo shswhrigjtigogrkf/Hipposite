@@ -24,7 +24,7 @@ We're planning to bring some exciting new features to HIPPOSITE 2! Here's what's
   - A tool made by [Blobby-Boi](https://github.com/Blobby-Boi)   (ExtHang3r [repo](https://github.com/blobby_boy)  )
 
 - 🔄 **Auto-Update**  
-  - Most likely not happening, but we’ll see!  
+  - almost garenteed, we are working on this as soon as we get the background and most of ui done
 
 - And more! Stay tuned as we continue to brainstorm and build.  
 
