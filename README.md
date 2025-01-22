@@ -51,7 +51,7 @@ We're working to include the following apps and services:
 This project is created by **2 average people** who are working on it in their free time. Please be patient as updates may not be consistent or perfect. 
 And we truly are sorry for not living up to some expectations.
 
-We "encourage" you to:  
+We encourage you to:  
 1. Focus on school.  
 2. Get good grades.  
 3. Then enjoy using our apps "responsibly".  
