@@ -35,7 +35,7 @@ We're working to include the following apps and services:
 
 -  **Ai** | Featuring ChatGPT, Wonder AI, and Wombo.  
 
-- **Media streaming** | (*"alternatives", because if you are  you're too poor too afford big names*)
+- **Media streaming** | (*"alternatives", because if you are using this, you're clearly too poor too afford big names*)
 
 - **SnapForWeb** | *Not guaranteed*  
 
