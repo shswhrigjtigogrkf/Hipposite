@@ -13,7 +13,7 @@ We're planning to bring some exciting new features in HIPPOSITE 2! Here's what's
   - Find a bakers dozen (or more!) games to waste your time away.
 
 - 📂 **Utilities**  
-  - A guide on bookmarklets (even after they're blocked!), and more.
+  - A guide on bookmarklets, (even after they're blocked!) and more.
 
 - 🚪 **Alternate methods**  
   - More efficient, cooler, and simple methods to deliver your blocked websites.
