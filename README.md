@@ -1,32 +1,30 @@
 
-# HIPPOSITE 2!! 🎉  
+# Hipposite 2 🦛
 
-*This is a remake of Hipposite/40%-bible, and we're working hard to make this one even better!*  
-**DOES NOT WORK FOR NOW**
+## Faster, stronger, better.
+### Easier to read, consistent, more optimal code.
+### Ready for new features.
+
 ---
-
-## ✨ New Features (Hopefully)  
+## 🗺️ Roadmap
 We're planning to bring some exciting new features to HIPPOSITE 2! Here's what's in the works:  
 
-- 🌐 **Browser Functionality**  
-  - We need a server to run this feature. If you can help, please create a ticket in our server!  
-
 - 🕹️ **Games Tab**  
-  - Not guaranteed, but we might have something else fun in the works.  
+  - Find a bakers dozen (or more!) games to waste your time away.
 
-- 📂 **More Apps Section**  
-  - We hope to include tabs for different categories like usage, server tools, and more.  
+- 📂 **Utilities**  
+  - A guide on bookmarklets (even after they're blocked!), and more.
 
-- 🚪 **Alternative Unblocking Methods**  
-  - Beyond the 40% method (requires a server, so not guaranteed).  
+- 🚪 **Alternate methods**  
+  - More efficient, cooler, and simple methods to deliver your blocked websites.
 
 - 🛠️ **ExtHang3r Integration**  
-  - A tool made by [Blobby-Boi](https://github.com/Blobby-Boi)   (ExtHang3r [repo](https://github.com/blobby_boy)  )
+  - A tool made by [Blobby-Boi](https://github.com/Blobby-Boi)   (ExtHang3r [repo](https://github.com/blobby_boy)  ) to disable blocking extensions.
 
 - 🔄 **Auto-Update**  
-  - almost garenteed, we are working on this as soon as we get the background and most of ui done
+  - Remove the unnecessary manual updates, and deliver the newest content in seconds.
 
-- And more! Stay tuned as we continue to brainstorm and build.  
+- And countless other ideas and possibilities. Stay tuned [at our discord](https://discord.com/channels/1282151040183046237/1301178045142667305) to learn more.
 
 ---
 
@@ -35,50 +33,47 @@ We're working to include the following apps and services:
 
 - **Discord**
 
--  **Ai**
-  - Featuring ChatGPT, Wonder AI, and Wombo.  
+-  **Ai** | Featuring ChatGPT, Wonder AI, and Wombo.  
 
-- **Movie Piracy Alternatives**  
-  - Sites like f2movies, freek.to, and zoro.to.  
+- **Media streaming**
 
-- **SnapForWeb**  
-  - *Not guaranteed; similar to Reddit, it often fails to load.*  
+- **SnapForWeb** | *Not guaranteed*  
 
-- **Reddit**  
-  - If we can fix loading issues.  
+- **Reddit** | *Not guaranteed either*
 
 - **Spotify**  
 
-- **More Apps Coming Soon!**  
+### And Many others!
 
 ---
 
 ## 🙏 A Note From the Creators  
-This project is created by **2 people** who are working on it in their free time. Please be patient as updates may not be consistent or perfect. 
+This project is created by **2 average people** who are working on it in their free time. Please be patient as updates may not be consistent or perfect. 
 And we truly are sorry for not living up to some expectations.
 
-We encourage you to:  
+We "encourage" you to:  
 1. Focus on school.  
 2. Get good grades.  
-3. Then enjoy using HIPPOSITE 2 responsibly.  
+3. Then enjoy using our apps "responsibly".  
 
 ---
 
 ## ⚠️ Legal Disclaimer  
 The `index.html` file in this repository is copyright-protected. Copying, redistributing, or using this file commercially without permission is illegal.  
 
-- **Commercial use** includes any activity related to buying, selling, or making a profit.  
-- **Unauthorized Distribution**: Even in small settings, like school environments, this file is subject to copyright laws.  
+- **Commercial use** includes any activity related to buying, selling, or advertising.
+- **Unauthorized Distribution**: Publicly distributing our software without explicit permission.
 
 If you notice anyone violating these terms, please:  
 1. Create an issue on this repository.  
 2. Make a ticket in our server.  
 
-Thank you for your understanding and cooperation!  
+### Thank you for your understanding and cooperation!  
 
 ---
 
 **If you find this project helpful or interesting, don't forget to star ⭐ the repository!** 
-**(We are also taking recomendations in [issues](https://github.com/philchhalmers8/Hipposite/issues/new?template=Blank+issue) or the [Discord server](https://discord.gg/jVC3NPfVkn)**
+**(We are also taking recommendations in our [issues](https://github.com/philchhalmers8/Hipposite/issues/new?template=Blank+issue) tab or the [Discord server](https://discord.gg/jVC3NPfVkn)**!
 
 ---  
+
