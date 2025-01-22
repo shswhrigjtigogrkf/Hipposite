@@ -2,8 +2,8 @@
 # Hipposite 2 🦛
 
 ## Faster, stronger, better.
-### Easier to read, consistent, more optimal code.
-### Ready for new features.
+#### Easier to read, consistent, more optimal code.
+#### Ready for new features.
 
 ---
 ## 🗺️ Roadmap
