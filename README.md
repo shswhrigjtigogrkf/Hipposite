@@ -1,7 +1,7 @@
 
 # Hipposite 2 🦛
 
-## Faster, stronger, better.
+### Faster, stronger, better.
 #### Easier to read, consistent, more optimal code.
 #### Ready for new features.
 
