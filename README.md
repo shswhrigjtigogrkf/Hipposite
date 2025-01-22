@@ -7,7 +7,7 @@
 
 ---
 ## 🗺️ Roadmap
-We're planning to bring some exciting new features to HIPPOSITE 2! Here's what's in the works:  
+We're planning to bring some exciting new features in HIPPOSITE 2! Here's what's in the works:  
 
 - 🕹️ **Games Tab**  
   - Find a bakers dozen (or more!) games to waste your time away.
