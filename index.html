@@ -101,14 +101,14 @@
             /* Auto-Update */
             addEventListener("DOMContentLoaded", (event) => {
                 console.log("Beginning Update")
-                fetch("https://raw.githubusercontent.com/philchhalmers8/Hipposite/refs/heads/testing/index.html")
+                fetch("https://raw.githubusercontent.com/philchhalmers8/Hipposite/refs/heads/main/index.html")
                     .then(response => response.text())
                     .then(source => { document.open();
                         document.write(source); document.close(); })
                     .catch(error => { document.body.innerHTML = "Error updating from github origin " + error; });
                 console.log("Update complete")
             });
-            
+
             /* Url extension bypass */
             function openTab(event, url) {
                 event.preventDefault();
