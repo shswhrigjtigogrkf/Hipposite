@@ -22,7 +22,7 @@ We're planning to bring some exciting new features in HIPPOSITE 2! Here's what's
   - A tool made by [Blobby-Boi](https://github.com/Blobby-Boi)   (ExtHang3r [repo](https://github.com/blobby_boy)  ) to disable blocking extensions.
 
 - 🔄 **Auto-Update**  
-  - Remove the unnecessary manual updates, and deliver the newest content in seconds.
+  - Remove the unnecessary manual updates, and deliver the newest content in seconds. *COMPLETE*
 
 - And countless other ideas and possibilities. Stay tuned [at our discord](https://discord.com/channels/1282151040183046237/1301178045142667305) to learn more.
 
