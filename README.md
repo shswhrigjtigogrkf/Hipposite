@@ -73,7 +73,7 @@ If you notice anyone violating these terms, please:
 ---
 
 **If you find this project helpful or interesting, don't forget to star ⭐ the repository!** 
-**(We are also taking recommendations in our [issues](https://github.com/philchhalmers8/Hipposite/issues/new?template=Blank+issue) tab or the [Discord server](https://discord.gg/jVC3NPfVkn)**!
+**(We are also taking recommendations in our [issues](https://github.com/philchhalmers8/Hipposite/issues/new?template=Blank+issue) tab or the [Discord server](https://discord.gg/kVJGgq9Rg4))**!
 
 ---  
 
