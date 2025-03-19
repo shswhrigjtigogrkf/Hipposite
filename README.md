@@ -59,7 +59,7 @@ We encourage you to:
 ---
 
 ## ⚠️ Legal Disclaimer  
-The `index.html` file in this repository is copyright-protected. Copying, redistributing, or using this file commercially without permission is illegal.  
+The `Hipposite 2.html` file in this repository is copyright-protected. Copying, redistributing, or using this file commercially without permission is illegal.  
 
 - **Commercial use** includes any activity related to buying, selling, or advertising.
 - **Unauthorized Distribution**: Publicly distributing our software without explicit permission.
