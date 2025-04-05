@@ -345,9 +345,8 @@
             document.getElementById("hangButton").addEventListener("click", () => {
                 const url = document.getElementById("iframeSelect").value;
                 const count = document.getElementById("extslider").value;
-                if (window.confirm(`Click your extension's icon and select manage extension. Next come back here and press OK, then press CTRL+TAB and immediately spam 'Allow Access To File URLs' for five seconds once the page loads, then go to the about:blank page and select cancel on the print dialogue and close it. The extension should be hung.`)) {
-                    print(url, count)
-                }
+                alert(`Click your extension's icon and select manage extension. Next come back here and press OK, then press CTRL+TAB and immediately spam 'Allow Access To File URLs' for five seconds once the page loads, then go to the about:blank page and select cancel on the print dialogue and close it. The extension should be hung.`)) {
+                print(url, count)
             });
 
             const extensions = {
