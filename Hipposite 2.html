@@ -293,6 +293,7 @@
             </div>
 
             <div class="header" id="bookmarklets">
+                
             <a href="javascript:(()=>{const e=parseInt(prompt(&quot;Points per question (max is 7000):&quot;))-5e3,o=fetch;window.fetch=function(r,s){if([&quot;https://game.quizizz.com/play-api/v4/soloProceed&quot;,&quot;https://game.quizizz.com/play-api/v4/proceedGame&quot;].includes(r)){const o=JSON.parse(s.body);o.response.provisional.scores={correct:e+5e3,incorrect:e+5e3},o.response.provisional.scoreBreakups={correct:{base:5e3,timer:5e3,streak:5e3,powerups:[],total:e+5e3},incorrect:{base:5e3,timer:5e3,streak:5e3,powerups:[],total:e+5e3}},s.body=JSON.stringify(o)}return o(r,s)}})();">
                      Choose # of Quizziz Points
                  </a>
@@ -354,7 +355,7 @@
             function openUserUrl(event) {
                 event.preventDefault();
 
-                const sliderValue = document.getElementById("slider").value;
+                const sliderValue = document.getElementById("urlslider").value;
                 const userUrl = document.getElementById("url").value;
                 console.log(userUrl);
 
