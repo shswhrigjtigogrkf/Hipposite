@@ -18,9 +18,6 @@ We're planning to bring some exciting new features in HIPPOSITE 2! Here's what's
 - 🚪 **Alternate methods**  
   - More efficient, cooler, and simple methods to deliver your blocked websites.
 
-- 🛠️ **ExtFlood3r Integration**  
-  - A tool made by [Blobby-Boi](https://github.com/Blobby-Boi)   (ExtFlood3r [repo](https://github.com/Blobby-Boi/ExtFlood3r)  ) to disable blocking extensions. (check [here](https://github.com/philchhalmers8/Hipposite/blob/main/extensionslist.png) for extensions list)
-
 - 🔄 **Auto-Update**  
   - Remove the unnecessary manual updates, and deliver the newest content in seconds. *COMPLETE*
 
