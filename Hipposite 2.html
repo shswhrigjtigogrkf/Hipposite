@@ -336,21 +336,11 @@
                 How do I use bookmarklets?
             </summary>
             <p>Install Ublock: <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">Here</a></p>
-
-            <p>Click on the extension and click the gears for settings</p>
-
-            <p>Scroll to the bottom, click "I am an advanced user" and then click the new gears that pop up.</p>
-
-            <p>Find userRecourcesLocation, and change its value from "unset" to "https://pastebin.com/raw/PPZ1T7uh"</p>
-
-            <p>Go back to normal settings and fins the "Custom filters" tab</p>
-
-            <p>Add "*##+js(execute_script.js)" to the filters and apply</p>
-
-            <p>Now you can press "ctrl + ~" to open a JS popup, paste bookmarklets here.</p>
-
-            <h3>This does not work on ALL websites.</h3>
-
+                <p>Go to advanced settings (Ublock settings and check "I'm an advanced user") and click the gears</p>
+                <p>Set userResourcesLocation from unset to https://raw.githubusercontent.com/Blobby-Boi/uBlobeBM/refs/heads/main/blob.js</p>
+                <p>Go back to normal settings and add this to "my filters":
+                *##+js(blob.js)
+                </p>
             </details>
         </div>
 
