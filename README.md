@@ -19,7 +19,7 @@ We're planning to bring some exciting new features in HIPPOSITE 2! Here's what's
   - More efficient, cooler, and simple methods to deliver your blocked websites.
 
 - 🔄 **Auto-Update**  
-  - Remove the unnecessary manual updates, and deliver the newest content in seconds. *COMPLETE*
+  - Remove the unnecessary manual updates, and deliver the newest content in seconds. *UNFINISHED (Complete to some degree)*
 
 - And countless other ideas and possibilities. Stay tuned [at our discord](https://discord.com/channels/1282151040183046237/1301178045142667305) to learn more.
 
