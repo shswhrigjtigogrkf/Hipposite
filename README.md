@@ -4,6 +4,7 @@
 ### Faster, stronger, better.
 #### Easier to read, consistent, more optimal code.
 #### Ready for new features.
+#### May not work for everyone, securely has it fully patched! :(
 
 ---
 ## 🗺️ Roadmap
